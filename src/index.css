@@ -53,3 +53,84 @@ img {
   width:50%;
   object-fit: contain;
 }
+
+.generate {
+  color: white;
+  background-color: #50C2C9;
+  font: inherit;
+  font-size: 2rem;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  border-radius: 10rem;
+  border-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.onboard {
+  color: #50C2C9;
+  text-align: center;
+  font-size: 60px;
+}
+
+.guyalogo{
+  border: 0.1rem;
+  border-radius: 0%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+form{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.sidenote{
+  font-size: small;
+  font-style: italic;
+}
+
+.automate{
+  font-size:20px;
+  background-color: aliceblue;
+  font-style: inherit;
+  text-align: center;
+}
+
+tag{
+  font-style:oblique;
+  color:darkblue;
+  background-color:whitesmoke;
+  font-size: larger;
+}
+
+h3{
+  text-align: center;
+}
+
+.container2{
+  height:30%;
+  width:30%;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+  text-align: center;
+}
+
+.figure{
+  text-align: center;
+}
+
+span{
+  font-size:50px;
+  color:purple;
+}

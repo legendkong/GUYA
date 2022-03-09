@@ -1,10 +1,15 @@
 import { useAuth0 } from '@auth0/auth0-react';
+import { useNavigate } from "react-router-dom";
 
-const Profile = () => {
-   const { user, isAuthenticated } = useAuth0();
+function Profile() {
    
-  return (
-     isAuthenticated && (
+   const { user, isAuthenticated } = useAuth0();
+
+   let navigate = useNavigate();
+   
+return (
+   
+isAuthenticated && (
       <article className='column'>
          {user?.picture && <img src={user.picture} alt={user?.name} />}
          <h2>{user?.name}</h2>
@@ -17,11 +22,11 @@ const Profile = () => {
          <br>
          </br>
          <h1>GUYA</h1>
-         <button> Tell us more, young bull!
+      <button onClick={() => {navigate("/form");}}> Tell us more, young bull!
       </button>
       </article>
      )
   )
 }
 
-export default Profile
+export default Profile;
