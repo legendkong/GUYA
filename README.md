@@ -45,6 +45,7 @@ I also enabled the use of Google and Github authentication-authorization as I fi
   ## 4. Profiling page
   After registration, the user is required to fill up a simple questionnaire to find out more about the user's budgeting goals and finances. The key feature of this form is that it allows user to input values so as to feed and retrieve data to and from the backend, followed by displaying the automated portfolio splits as per the next page.
   <p align="center">
+    <img src="https://github.com/legendkong/GUYA/blob/main/Formpage.PNG" width="300" height="500">
   <img src="https://github.com/legendkong/GUYA/blob/main/GUYAgif2.gif" width="300" height="500">
   </p>
   
