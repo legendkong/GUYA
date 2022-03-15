@@ -21,7 +21,7 @@ The development of *GUYA* was broken down into three parts; frontend, middleware
   
   
  ## 1. Landing page
-  *Get Started* button to bring the user to the registration/log-in page <br>
+  *Get Started* button to bring the user to the registration/log-in page. <br>
   <p align="center">
   <img src="https://github.com/legendkong/GUYA/blob/main/GUYAgif1.gif" width="300" height="500">
   </p>
